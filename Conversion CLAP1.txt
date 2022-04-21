@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    float tract_Lands_area,area_in_acres;
+    scanf("%f", &tract_Lands_area);
+    area_in_acres= tract_Lands_area/43560;
+    printf("%.2f sq.ft is equal to %.2f acres", tract_Lands_area,area_in_acres);
+    
+    return 0;
+}
